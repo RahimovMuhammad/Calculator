@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="app">
+        <img class="appImg" src="./icons/Frame 9.svg" alt="">
+    </div>
+
+    <main class="container">
+        <section class="all">
+        <header class="top-section">
+            <div class="top-section_left">
+                <div class="logo">
+                <img src="./icons/splash_dark.svg" alt="">
+            </div>
+                <p>Calculator</p>
+            </div>
+            <div class="top-section_right"> 
+                <img class="closeCalc" height="42px" src="./icons/close.svg" alt="">
+            </div>
+        </header>
+        <section class="input-section">
+            <form>
+            <div class="textarea">
+                <h2 class="h2"></h2>
+                <h1 class="h1"></h1>
+            </div>
+            <div class="hr"></div>
+        </section>
+        <main class="main-section-calc">
+            <div class="max-width-calc">
+            <div class="top-section-calc">
+                <p class="miniNumber"></p>
+                <img class="onedelete" src="./icons/deleteNumber.svg" alt="">
+            </div>
+            <section class="container-Btn">
+                <div>
+                <button name="resets" type="reset" class="top-Btn reset">C</button>
+                <button name="bracket" value="()" class="top-Btn">( )</button>
+                <button name="module" value="%" class="top-Btn">%</button>
+                <button name="devide" value="/" class="top-Btn">/</button>
+                </div>
+
+                <div>
+                <button name="seven" value="7" class="number-Btn">7</button>
+                <button name="eight" value="8" class="number-Btn">8</button>
+                <button name="nine" value="9" class="number-Btn">9</button>
+                <button name="multiply" value="*" class="number-Btn">x</button>
+                </div>
+
+                <div>
+                <button name="four" value="4" class="number-Btn">4</button>
+                <button name="five" value="5" class="number-Btn">5</button>
+                <button name="six" value="6" class="number-Btn">6</button>
+                <button name="minus" value="-" class="number-Btn">-</button>
+                </div>
+
+                <div>
+                <button name="one" value="1" class="number-Btn">1</button>
+                <button name="two" value="2" class="number-Btn two">2</button>
+                <button name="three" value="3" class="number-Btn">3</button>
+                <button name="plus" value="+" class="number-Btn">+</button>
+                </div>
+
+                <div>
+                <button name="absN" value="+/-" class="number-Btn">+/-</button>
+                <button name="zero" value="0" class="number-Btn">0</button>
+                <button name="float" value="." class="number-Btn">.</button>
+                <button name="equal" type="submit" value="=" class="number-Btn">=</button>
+                </div>
+                </form>
+            </section>
+            </div>
+        </main>
+        </section>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
